@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/gif/png" href="img/img.png">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="game">
+            <div class="row">
+                <div class="column">
+                    <button onclick="btn(1)" id="btn1" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(2)" id="btn2" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(3)" id="btn3" class="button"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button onclick="btn(4)" id="btn4" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(5)" id="btn5" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(6)" id="btn6" class="button"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button onclick="btn(7)" id="btn7" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(8)" id="btn8" class="button"></button>
+                </div>
+                <div class="column">
+                    <button onclick="btn(9)" id="btn9" class="button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="scoreBoard">
+            <div class="column" style="width: 200px;">
+                <p id="p1Score">Player 1 : 0</p>
+                <p id="p2Score">Player 2 : 0</p>
+            </div>
+            <div class="column" style="width: 200px;">
+                <p id="playerName">Turn : Player 1</p>
+                <p id="status"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
