@@ -14,7 +14,7 @@
     background-color:wheat;
     color:rebeccapurple;
     transition: 0.5s;
-    padding: 10px;
+    
 }
 .column:hover{
     color: brown;
@@ -45,6 +45,17 @@ p {
 }
 button {
     font-size: xx-large;
+}
+h1 {
+    color: blueviolet;
+    background-color: wheat;
+    padding: 5%;
+    transition: 1s;
+}
+h1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+
 }
 @media screen and (max-width: 700px){
     .column {
