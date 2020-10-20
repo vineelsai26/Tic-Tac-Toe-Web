@@ -7,18 +7,18 @@
     height: fit-content;
 }
 .column {
-    float: left;
+    float: right;
     width: 100px;
     height: 100px;
     padding: 5px;
     background-color:wheat;
     color:rebeccapurple;
-    transition: 0.5s;
+    transition: 0.1s;
     
 }
 .column:hover{
     color: brown;
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 2;
 }
 .button{
